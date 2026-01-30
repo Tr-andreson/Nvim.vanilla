@@ -92,12 +92,11 @@ nnoremap <Tab> :tabnext<CR>    " Next tab
 nnoremap <S-Tab> :tabprev<CR>  " Previous tab
 
 " --- Fold settings ---
-set foldmethod=indent           " Fold based on indentation
-set foldlevel=99                " Don't fold by default
-nnoremap <Space>z za            " Toggle fold under cursor
+set foldmethod=indent
+set foldlevel=1
+set foldclose=all
 
 " --- Tab navigation using n + Tab ---
 nnoremap n:tabnext<CR>   " n + Tab → next tab
 nnoremap N<Tab> :tabprev<CR>   " Shift+n + Tab → previous tab
-
 
